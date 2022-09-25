@@ -1,0 +1,20 @@
+{
+  "name": "authentication-server",
+  "version": "1.0.0",
+  "description": "This is a node js server with express to validate registration of user via email and will allow login of user as well as display appropriate profile page.",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Dhruv Rana",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.20.0",
+    "express": "^4.18.1",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^6.6.1",
+    "nodemon": "^2.0.20"
+  }
+}
